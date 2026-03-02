@@ -2,15 +2,15 @@ import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 
 interface ProductTemplateProps {
-  image?: string;
   name: string;
   description: string;
-  category?: string; // Ex: Liivro
-  price?: string;    // Ex: R$ 88
-  link?: string;     // Link da Kiwify
+  category?: string;
+  price?: string;
+  link?: string;
+  image?: string; // Adicionamos a imagem aqui
 }
 
-export default function ProductTemplate({ name, description, category, price, link }: ProductTemplateProps) {
+export default function ProductTemplate({ name, description, category, price, link, image }: ProductTemplateProps) {
   return (
     <motion.div 
       initial={{ opacity: 0 }}
@@ -23,13 +23,14 @@ export default function ProductTemplate({ name, description, category, price, li
       </Link>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
-      <div className=\"aspect-[4/5] bg-white/5 flex items-center justify-center border border-white/5 overflow-hidden\">
-        {image ? (
-          <img src={image} alt={name} className=\"w-full h-full object-cover\" />
-        ) : (
-          <span className=\"text-white/10 uppercase tracking-[0.3em] text-[10px]\">Pitore Studio</span>
-        )}
-      </div>
+        {/* Espaço da Imagem */}
+        <div className="aspect-[4/5] bg-white/5 flex items-center justify-center border border-white/5 overflow-hidden">
+          {image ? (
+            <img src={image} alt={name} className="w-full h-full object-cover" />
+          ) : (
+            <span className="text-white/10 uppercase tracking-[0.3em] text-[10px]">Pitore Studio</span>
+          )}
+        </div>
         
         <div className="flex flex-col">
           {category && (
