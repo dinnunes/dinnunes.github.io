@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
+import { useEffect } from 'react'; // 1. Adicionado o import
 
 const links = [
   { id: 'mim', name: 'Mim' },
@@ -11,6 +12,12 @@ const links = [
 ];
 
 export default function Sobre() {
+  
+  // 2. Atualiza a aba para "Sobre | Pitore"
+  useEffect(() => {
+    document.title = "Sobre | Pitore";
+  }, []);
+
   return (
     <motion.div 
       initial={{ opacity: 0 }}
