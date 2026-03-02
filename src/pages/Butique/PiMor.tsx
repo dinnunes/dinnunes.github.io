@@ -1,7 +1,6 @@
 import ProductTemplate from '../../components/ProductTemplate';
 
-export default function PiMor
-  () {
+export default function PiMor() {
   return (
     <ProductTemplate 
       category="Liivro" 
