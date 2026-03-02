@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
-import { ReactNode } from 'react';
+import { ReactNode, useEffect } from 'react'; // 1. Adicionamos o useEffect aqui
 
 interface PageTemplateProps {
   title: string;
@@ -8,6 +8,12 @@ interface PageTemplateProps {
 }
 
 export default function PageTemplate({ title, children }: PageTemplateProps) {
+  
+  // 2. Este bloco faz a mágica de mudar o nome na aba do navegador
+  useEffect(() => {
+    document.title = `${title} | Pitore`;
+  }, [title]);
+
   return (
     <motion.div 
       initial={{ opacity: 0 }}
