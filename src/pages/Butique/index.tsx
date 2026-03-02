@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
+import { useEffect } from 'react'; // 1. Adicionado o import
 
 const products = [
   { id: 'piteni', name: 'PiTeni', desc: 'Entretenimento, por gentileza.', image: '/piteni.jpg' },
@@ -12,6 +13,12 @@ const products = [
 ];
 
 export default function Butique() {
+  
+  // 2. Comando para mudar o nome da aba
+  useEffect(() => {
+    document.title = "Butique | Pitore";
+  }, []);
+
   return (
     <motion.div 
       initial={{ opacity: 0 }}
@@ -38,41 +45,4 @@ export default function Butique() {
           >
             <Link 
               to={`/butique/${product.id}`}
-              className="group block"
-            >
-              {/* Moldura da Imagem */}
-              <div className="aspect-[4/5] bg-white/5 rounded-none mb-8 flex items-center justify-center overflow-hidden relative border border-white/5">
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10" />
-                
-                {product.image ? (
-                  <img 
-                    src={product.image} 
-                    alt={product.name} 
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
-                  />
-                ) : (
-                  <span className="text-white/20 text-[10px] tracking-[0.2em] uppercase font-medium">
-                    {product.name}
-                  </span>
-                )}
-              </div>
-
-              {/* Textos Informativos */}
-              <div className="flex justify-between items-baseline">
-                <h2 className="text-2xl font-light tracking-tight group-hover:translate-x-2 transition-transform duration-500 ease-out">
-                  {product.name}
-                </h2>
-                <span className="text-[10px] uppercase tracking-[0.2em] text-white/40 group-hover:text-white/80 transition-colors duration-500">
-                  Ver Detalhes
-                </span>
-              </div>
-              <p className="text-white/40 font-light text-sm mt-3 leading-relaxed">
-                {product.desc}
-              </p>
-            </Link>
-          </motion.div>
-        ))}
-      </div>
-    </motion.div>
-  );
-}
+              className
