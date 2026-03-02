@@ -10,7 +10,7 @@ export default function Juridico() {
           <p className="text-white/50 font-light leading-relaxed">
             Este site é uma obra-prima que está arquitetando os 7 pilares da experiência humana.<br/>
             Ao navegar, você concorda em utilizar o conteúdo de forma ética e respeitosa. 
-            As transações comerciais são processadas via Kiwify, seguindo seus próprios protocolos de segurança.
+            A Pitore atua como uma curadoria; as transações comerciais na Butique são processadas via Kiwify, enquanto os itens da Loja redirecionam para plataformas parceiras externas. Cada plataforma possui seus próprios termos e protocolos de segurança, pelos quais a Pitore não se responsabiliza.
           </p>
         </section>
 
@@ -19,7 +19,7 @@ export default function Juridico() {
           <p className="text-white/50 font-light leading-relaxed">
             Respeitamos sua privacidade. Não coletamos dados pessoais diretamente neste site.<br/>
             A hospedagem é provida pelo GitHub Pages, que pode coletar logs técnicos básicos. 
-            Dados de compra são gerenciados exclusivamente pela plataforma de pagamento parceira.
+            Ao clicar em elos da Loja ou Butique, você será direcionado a ambientes de terceiros. Recomendamos a leitura das políticas de privacidade dessas plataformas, pois o processamento de dados de compra e navegação externa ocorre fora do domínio da Pitore.
           </p>
         </section>
 
