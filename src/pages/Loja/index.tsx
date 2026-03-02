@@ -9,39 +9,39 @@ const categorias = [
     itens: [
       { nome: 'Apple TV', desc: 'O melhor do cinema e das produções originais para o seu repertório visual.', link: '#' },
       { nome: 'HBO Max', desc: 'O melhor do cinema e das produções originais para o seu repertório visual.', link: '#' },
-      { nome: 'Steam', desc: 'Tecnologia, hardware e o universo dos jogos para o seu setup de alta performance.', link: '#' }
+      { nome: 'Steam', desc: 'Tecnologia, hardware e o universo dos jogos para o seu setup de alta performance.', link: '#' },
     ]
   },
   {
     titulo: 'Dinheiro',
     cor: '#18FF19',
     itens: [
-      { nome: 'FNO', desc: 'Ferramentas para construção de liberdade geográfica, trabalho digital e gestão inteligente.', link: '#' }
-      { nome: 'Inter', desc: 'Ferramentas para construção de liberdade geográfica, trabalho digital e gestão inteligente.', link: '#' }
+      { nome: 'FNO', desc: 'Ferramentas para construção de liberdade geográfica, trabalho digital e gestão inteligente.', link: '#' },
+      { nome: 'Inter', desc: 'Ferramentas para construção de liberdade geográfica, trabalho digital e gestão inteligente.', link: '#' },
     ]
   },
   {
     titulo: 'Saúde',
     cor: '#1889FF',
     itens: [
-      { nome: 'Olympikus', desc: 'Equipamentos para o corpo em movimento e cuidados para a vida doméstica e animal.', link: '#' }
-      { nome: 'Netshoes', desc: 'Equipamentos para o corpo em movimento e cuidados para a vida doméstica e animal.', link: '#' }
+      { nome: 'Olympikus', desc: 'Equipamentos para o corpo em movimento e cuidados para a vida doméstica e animal.', link: '#' },
+      { nome: 'Netshoes', desc: 'Equipamentos para o corpo em movimento e cuidados para a vida doméstica e animal.', link: '#' },
     ]
   },
   {
     titulo: 'Filosofia',
     cor: '#FF7218',
     itens: [
-      { nome: 'Surfshark', desc: 'Privacidade digital, leitura infinita e o acesso rápido a qualquer objeto de estudo.', link: '#' }
-      { nome: 'Kindle', desc: 'Privacidade digital, leitura infinita e o acesso rápido a qualquer objeto de estudo.', link: '#' }
-      { nome: 'Mercado Livre', desc: 'Privacidade digital, leitura infinita e o acesso rápido a qualquer objeto de estudo.', link: '#' }
+      { nome: 'Surfshark', desc: 'Privacidade digital, leitura infinita e o acesso rápido a qualquer objeto de estudo.', link: '#' },
+      { nome: 'Kindle', desc: 'Privacidade digital, leitura infinita e o acesso rápido a qualquer objeto de estudo.', link: '#' },
+      { nome: 'Mercado Livre', desc: 'Privacidade digital, leitura infinita e o acesso rápido a qualquer objeto de estudo.', link: '#' },
     ]
   },
   {
     titulo: 'Língua',
     cor: '#FEEF18',
     itens: [
-      { nome: 'YouTube', desc: 'A maior plataforma de conhecimento em vídeo e oratória do mundo.', link: '#' }
+      { nome: 'YouTube', desc: 'A maior plataforma de conhecimento em vídeo e oratória do mundo.', link: '#' },
     ]
   },
   {
@@ -49,18 +49,18 @@ const categorias = [
     cor: '#ae18fe',
     itens: [
       { nome: 'Shein', desc: 'Do estilo acessível à alta joalheria. Estética e ornamentação pessoal.', link: '#' },
-      { nome: 'Monte Carlo', desc: 'Cuidados com a imagem pessoal e a harmonia estética do seu ambiente.', link: '#' }
-      { nome: 'Vivara', desc: 'Cuidados com a imagem pessoal e a harmonia estética do seu ambiente.', link: '#' }
-      { nome: 'Beleza na Web', desc: 'Cuidados com a imagem pessoal e a harmonia estética do seu ambiente.', link: '#' }
-      { nome: 'Camicado', desc: 'Cuidados com a imagem pessoal e a harmonia estética do seu ambiente.', link: '#' }
+      { nome: 'Monte Carlo', desc: 'Cuidados com a imagem pessoal e a harmonia estética do seu ambiente.', link: '#' },
+      { nome: 'Vivara', desc: 'Cuidados com a imagem pessoal e a harmonia estética do seu ambiente.', link: '#' },
+      { nome: 'Beleza na Web', desc: 'Cuidados com a imagem pessoal e a harmonia estética do seu ambiente.', link: '#' },
+      { nome: 'Camicado', desc: 'Cuidados com a imagem pessoal e a harmonia estética do seu ambiente.', link: '#' },
     ]
   },
   {
     titulo: 'Amor',
     cor: '#FF189C',
     itens: [
-      { nome: 'Miess', desc: 'Exploração, desejo e o aprofundamento da intimidade e do prazer.', link: '#' }
-      { nome: 'Panty Nova', desc: 'Exploração, desejo e o aprofundamento da intimidade e do prazer.', link: '#' }
+      { nome: 'Miess', desc: 'Exploração, desejo e o aprofundamento da intimidade e do prazer.', link: '#' },
+      { nome: 'Panty Nova', desc: 'Exploração, desejo e o aprofundamento da intimidade e do prazer.', link: '#' },
     ]
   }
 ];
