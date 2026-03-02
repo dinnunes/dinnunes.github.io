@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 
 const links = [
-  { id: 'mim', name: 'Sobre Mim' },
+  { id: 'mim', name: 'Mim' },
   { id: 'etica', name: 'Ética' },
-  { id: 'marca', name: 'A Marca' },
+  { id: 'marca', name: 'Marca' },
   { id: 'diario', name: 'Diário' },
   { id: 'juridico', name: 'Jurídico' },
   { id: 'contato', name: 'Contato' },
@@ -24,7 +24,7 @@ export default function Sobre() {
         transition={{ duration: 1, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
         className="text-5xl md:text-6xl font-light tracking-tighter mb-24 text-center"
       >
-        Sobre a Pitore
+        Sobre
       </motion.h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-4">
