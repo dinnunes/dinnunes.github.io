@@ -2,13 +2,13 @@ import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 
 const products = [
-  { id: 'piteni', name: 'PiTeni', desc: 'A elegância em movimento.' },
-  { id: 'pidin', name: 'PiDin', desc: 'Design estruturado e minimalista.' },
-  { id: 'pisau', name: 'PiSau', desc: 'Conforto atemporal.' },
-  { id: 'pisofia', name: 'PiSofia', desc: 'Delicadeza e sofisticação.' },
-  { id: 'pilin', name: 'PiLin', desc: 'Linhas puras e essenciais.' },
-  { id: 'pistilo', name: 'Pistilo', desc: 'A expressão do estilo.' },
-  { id: 'pimor', name: 'PiMor', desc: 'Amor em cada detalhe.' },
+  { id: 'piteni', name: 'PiTeni', desc: 'Entretenimento, por gentileza.' },
+  { id: 'pidin', name: 'PiDin', desc: 'Dinheirooooo…' },
+  { id: 'pisau', name: 'PiSau', desc: 'A saúde, do vermelho para o azul.' },
+  { id: 'pisofia', name: 'PiSofia', desc: 'Qual é a sua filosofia?' },
+  { id: 'pilin', name: 'PiLin', desc: 'There is not just one language.' },
+  { id: 'pistilo', name: 'Pistilo', desc: 'Indo com estilo.' },
+  { id: 'pimor', name: 'PiMor', desc: 'Ah, o amor!' },
 ];
 
 export default function Butique() {
@@ -46,7 +46,7 @@ export default function Butique() {
               </div>
               <div className="flex justify-between items-baseline">
                 <h2 className="text-2xl font-light tracking-tight group-hover:translate-x-2 transition-transform duration-500 ease-out">{product.name}</h2>
-                <span className="text-xs uppercase tracking-widest text-white/40 group-hover:text-white/80 transition-colors duration-500">Ver detalhes</span>
+                <span className="text-xs uppercase tracking-widest text-white/40 group-hover:text-white/80 transition-colors duration-500">Saiba mais</span>
               </div>
               <p className="text-white/40 font-light text-sm mt-3">{product.desc}</p>
             </Link>
