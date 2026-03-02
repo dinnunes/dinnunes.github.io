@@ -6,7 +6,7 @@ export default function Marca() {
       <p>
         <strong>
           Lema <br/>
-          ENIGMA SUBLIME...
+          Enigma sublime...
         </strong>
       </p>
       <br/>
@@ -14,7 +14,7 @@ export default function Marca() {
       <p>
         <strong>
           Lema secundário <br/>
-          UMA TRAGICOMÉDIA...
+          Uma tragicomédia...
         </strong>
       </p>
       <br/>
@@ -22,7 +22,7 @@ export default function Marca() {
       <p>
         <strong>
           Lema especial <br/>
-          ORDEM E PROGRESSO...
+          Ordem e progresso...
         </strong>
       </p>
       <br/>
@@ -35,6 +35,7 @@ export default function Marca() {
       </p>
       <br/>
 
+      <br/>
       <p>
         A história simples. O nome Pitore se forma da simples ideia do Din de criar uma redução leve da palavra Pitoresco.
       </p>
