@@ -2,12 +2,58 @@ import PageTemplate from '../../components/PageTemplate';
 
 export default function Marca() {
   return (
-    <PageTemplate title="A Marca">
+    <PageTemplate title="Marca">
       <p>
-        Pitore é sinônimo de design minimalista, qualidade excepcional e uma estética atemporal.
+        <strong>
+          Lema  <br/>
+          ENIGMA SUBLIME...
+        </strong>
+      </p>
+ <br/>
+
+      <p>
+        <strong>
+          Lema secundário  <br/>
+          UMA TRAGICOMÉDIA...
+        </strong>
+      </p>
+ <br/>
+
+      <p>
+        <strong>
+          Lema especial  <br/>
+          ORDEM E PROGRESSO...
+        </strong>
+      </p>
+ <br/>
+
+      <p>
+        <strong>
+          Reticências é a forma curta.  <br/>
+          ...
+        </strong>
       </p>
+ <br/>
       <p>
-        Nossas coleções são cuidadosamente curadas para oferecer peças que não apenas complementam o seu estilo, mas também contam uma história de elegância e sofisticação.
+        A história simples. O nome Pitore se forma da simples ideia do Din de criar uma redução leve da palavra Pitoresco.
+      </p>
+<br/>
+      <p>
+        O “Pi” e o “▭” em qualquer tipografia e cor, são duas opções na forma de texto que você pode usar para se referir a Pitore.
+      </p>
+<br/>      
+      <p>
+        Os liivros tem a sua marca também, como você pode ver abaixo. PiTeni por exemplo, significa: Pitore de Entretenimento.
+      </p>
+<br/>     
+      <p>
+        Juntos, eles formam os “Pis“.
+      </p>
+<br/>      
+      <p>
+        PiTeni, PiDin, PiSau, PiSofia, PiLin, Pistilo e PiMor.
+      </p>
+<br/>
       </p>
     </PageTemplate>
   );
