@@ -13,6 +13,8 @@ export default function Navbar() {
         <Link to="/sobre" className="hover:text-white transition-colors duration-300">
           Sobre
         </Link>
+        <Link to="/loja" className="hover:text-white transition-colors duration-300">
+        </Link>
       </div>
     </nav>
   );
