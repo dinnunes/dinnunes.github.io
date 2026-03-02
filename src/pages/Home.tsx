@@ -13,7 +13,7 @@ export default function Home() {
         Pitore
       </motion.h1>
       <motion.p className="text-lg md:text-xl text-white/50 font-light max-w-2xl mb-16 leading-relaxed">
-        A estética do pensamento e a ordem do obrar. <br/>
+        Arquitetando os 7 pilares da experiência humana. <br/>
         Seja a sua melhor versão.
       </motion.p>
       <Link to="/butique" className="px-10 py-4 bg-white text-black text-sm font-medium tracking-[0.1em] uppercase hover:scale-105 transition-transform duration-500">
