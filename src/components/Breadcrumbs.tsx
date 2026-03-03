@@ -24,7 +24,10 @@ export default function Breadcrumbs() {
   };
 
   return (
-    <nav className="flex items-center gap-2 text-[10px] uppercase tracking-[0.15em] text-white/20 py-8 mb-4">
+    // Mude de text-white/20 para text-white/40
+<nav className="flex items-center gap-2 text-[10px] uppercase tracking-[0.15em] text-white/40 py-8 mb-4">
+  {/* O resto do código permanece igual */}
+</nav>
       <Link to="/" className="hover:text-white transition-colors">▭</Link>
       
       {pathnames.map((name, index) => {
