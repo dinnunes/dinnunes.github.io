@@ -15,7 +15,7 @@ export default function Home() {
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-        className="text-5xl md:text-7xl lg:text-8xl font-light tracking-tighter mb-8 mt-12"
+        className="text-5xl md:text-7xl lg:text-8xl font-light tracking-tighter mb-8 mt-12 md:mt-6"
       >
         Pitore
       </motion.h1>
