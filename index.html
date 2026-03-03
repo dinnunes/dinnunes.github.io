@@ -6,21 +6,82 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      
-      // Removemos a linha 'config' daqui porque o componente Analytics.tsx 
-      // no React vai assumir essa responsabilidade para evitar contagens duplas.
     </script>
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pitore</title>
-    <meta name="description" content="Entre no mundo enigmático da Pitore e compre seu PiTeni, PiDin, PiMor ou... conheça a nossa ética, marca e diário.">
-    <meta name="description" id="meta-desc" content="Entre no mundo enigmático da Pitore e compre seu PiTeni, PiDin, PiMor ou... conheça a nossa ética, marca e diário..">
+    
+    <meta name="description" id="meta-desc" content="Entre no mundo enigmático da Pitore e compre seu PiTeni, PiDin, PiMor ou... conheça a nossa ética, marca e diário.">
+    
     <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="google-site-verification" content="Rx7QflbkLbbF57tEVZ4YlU2TGfEvhA64AFe7IjG4Utc" />
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+    <script>
+      function atualizarMeta() {
+        const hash = window.location.hash;
+        const metaTag = document.getElementById('meta-desc');
+
+        if (hash === 'https://dinnunes.github.io/#/sobre') {
+          document.title = "Sobre | Pitore";
+          metaTag.content = "Observe o meu negócio mais de perto e verá o enigma sublime em sua essência"; 
+        } else if (hash === 'https://dinnunes.github.io/#/sobre/contato') {
+          document.title = "Contato | Pitore";
+          metaTag.content = "O contato da Pitore é simples e versátil. Tire dúvidas, envie sugestões ou diga coisas boas.";
+        } else if (hash === 'https://dinnunes.github.io/#/sobre/mim') {
+          document.title = "Mim | Pitore";
+          metaTag.content = "Um pouco sobre mim, a Pitore, que é uma empresa, mas começou como uma pessoa. Uma breve história do Din.";
+        } else if (hash === 'https://dinnunes.github.io/#/sobre/etica') {
+          document.title = "Ética | Pitore";
+          metaTag.content = "Na Pitore estamos sempre cuidando da ética. Temos dez conceitos que seguimos, desde educação e arte, até privacidade.";
+        } else if (hash === 'https://dinnunes.github.io/#/sobre/marca') {
+          document.title = "Marca | Pitore";
+          metaTag.content = "A marca Pitore é muito peculiar. Conheça um pouco as logos, nomes e lemas memoráveis.";
+        } else if (hash === 'https://dinnunes.github.io/#/sobre/diario') {
+          document.title = "Diário | Pitore";
+          metaTag.content = "Diário da Pitore é uma fonte de informação que arquiteta os 7 pilares da experiência humana. Leia nossos conteúdos, novidades, atualizações e imagens.";
+        } else if (hash === 'https://dinnunes.github.io/#/sobre/juridico') {
+          document.title = "Jurídico | Pitore";
+          metaTag.content = "O jurídico da Pitore é transparente. Saiba qual é os termos de uso, privacidade e propriedade intelectual.";
+        } else if (hash === 'https://dinnunes.github.io/#/butique/pistilo') {
+          document.title = "Pistilo | Pitore";
+          metaTag.content = "Pistilo é um liivro de Estilo. Pensado para mostrar a sua Beleza, Visual e Moda.";
+        } else if (hash === 'https://dinnunes.github.io/#/butique/pilin') {
+          document.title = "PiLin | Pitore";
+          metaTag.content = "PiLin é um liivro de Língua. Pensado para você adquirir uma nova língua.";
+        } else if (hash === 'https://dinnunes.github.io/#/butique/pisofia') {
+          document.title = "PiSofia | Pitore";
+          metaTag.content = "PiSofia é um liivro de Filosofia. Pensado para você se autoconhecer, vai desde a Natureza até a Política.";
+        } else if (hash === 'https://dinnunes.github.io/#/butique/pisau') {
+          document.title = "PiSau | Pitore";
+          metaTag.content = "PiSau é um liivro de Saúde. Pensado para melhorar a sua Saúde Física, Mental, Emocional e Espiritual.";
+        } else if (hash === 'https://dinnunes.github.io/#/butique/pidin') {
+          document.title = "PiDin | Pitore";
+          metaTag.content = "PiDin é um liivro de Dinheiro. Pensado para você ganhar com Empregadorismo, Investimento, Autonomismo ou Empreendedorismo.";
+        } else if (hash === 'https://dinnunes.github.io/#/butique/piteni') {
+          document.title = "PiTeni | Pitore";
+          metaTag.content = "PiTeni é um liivro de Entretenimento. Pensado para quem gosta de Escutar, Ler, Assistir ou Jogar.";
+        } else if (hash === 'https://dinnunes.github.io/#/butique/pimor') {
+          document.title = "PiMor | Pitore";
+          metaTag.content = "PiMor é um liivro de Amor. Pensado para despertar a sua Sedução, Relação e Sexo.";
+        } else if (hash === 'https://dinnunes.github.io/#/butique') {
+          document.title = "Butique | Pitore";
+          metaTag.content = "Compre os produtos enigmáticos da Pitore. A butique está te esperando.";
+        } else if (hash === 'https://dinnunes.github.io/#/loja') {
+          document.title = "Loja | Pitore";
+          metaTag.content = "Compre os produtos que você conhece através da Pitore. Eles estão na loja.";
+        } else {
+          document.title = "Pitore"; 
+          metaTag.content = "Entre no mundo enigmático da Pitore e compre seu PiTeni, PiDin, PiMor ou... conheça a nossa ética, marca e diário.";
+        }
+      }
+
+      window.addEventListener('hashchange', atualizarMeta);
+      window.addEventListener('load', atualizarMeta);
+    </script>  
   </body>
 </html>
