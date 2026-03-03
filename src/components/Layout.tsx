@@ -12,19 +12,19 @@ export default function Layout() {
         <Outlet />
       </main>
 
-      <footer className="px-8 mt-40 pb-12 border-t border-white/5">
-        <div className="max-w-7xl mx-auto w-full">
-          <div className="py-12">
-            <Breadcrumbs /> 
-          </div>
-          
-          <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-start md:items-center gap-6 text-[10px] uppercase tracking-[0.2em] text-white/20">
-            {/* Ano automático aplicado aqui também */}
-            <p>Pitore © {new Date().getFullYear()} por Din — CC BY 4.0</p>
-            <p className="font-light italic opacity-50">Enigmas sublimes</p>
-          </div>
-        </div>
-      </footer>
+<footer className="px-8 mt-40 pb-12 border-t border-white/10"> {/* Linha mais visível */}
+  <div className="max-w-7xl mx-auto w-full">
+    <div className="py-12">
+      <Breadcrumbs /> 
+    </div>
+    
+    {/* Aumentamos a opacidade do texto para white/40 e a linha para white/10 */}
+    <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-start md:items-center gap-6 text-[10px] uppercase tracking-[0.2em] text-white/40">
+      <p>Pitore © {new Date().getFullYear()} por Din — CC BY 4.0</p>
+      <p className="font-light italic opacity-80">Enigma Sublime</p>
+    </div>
+  </div>
+</footer>
     </div>
   );
 }
