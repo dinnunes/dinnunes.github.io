@@ -1,14 +1,8 @@
 <script>
   function atualizarMeta() {
-    // 1. Pega apenas a parte do hash (ex: #/butique/pisau&prod...)
-    let hashOriginal = window.location.hash; 
-
-    // 2. Limpa o que vem depois de & ou ? para não bugar com o link da Kiwify
-    const hash = hashOriginal.split('&')[0].split('?')[0];
-
+    const hash = window.location.hash;
     const metaTag = document.getElementById('meta-desc');
 
-    // 3. Compara apenas o caminho relativo (o que começa com #)
     if (hash === '#/sobre') {
       document.title = "Sobre | Pitore";
       metaTag.content = "Observe o meu negócio mais de perto e verá o enigma sublime em sua essência"; 
@@ -26,7 +20,7 @@
       metaTag.content = "A marca Pitore é muito peculiar. Conheça um pouco as logos, nomes e lemas memoráveis.";
     } else if (hash === '#/sobre/diario') {
       document.title = "Diário | Pitore";
-      metaTag.content = "Diário da Pitore é uma fonte de informação que arquiteta os 7 pilares da experiência humana. Leia nossos conteúdos, novidades, atualizações e imagens.";
+      metaTag.content = "Diário da Pitore é uma fonte de informação que arquiteta os 7 pilares da experiência humana.";
     } else if (hash === '#/sobre/juridico') {
       document.title = "Jurídico | Pitore";
       metaTag.content = "O jurídico da Pitore é transparente. Saiba qual é os termos de uso, privacidade e propriedade intelectual.";
@@ -38,13 +32,13 @@
       metaTag.content = "PiLin é um livro de Língua. Pensado para você adquirir uma nova língua.";
     } else if (hash === '#/butique/pisofia') {
       document.title = "PiSofia | Pitore";
-      metaTag.content = "PiSofia é um livro de Filosofia. Pensado para você se autoconhecer, vai desde a Natureza até a Política.";
+      metaTag.content = "PiSofia é um livro de Filosofia. Pensado para você se autoconhecer.";
     } else if (hash === '#/butique/pisau') {
       document.title = "PiSau | Pitore";
       metaTag.content = "PiSau é um livro de Saúde. Pensado para melhorar a sua Saúde Física, Mental, Emocional e Espiritual.";
     } else if (hash === '#/butique/pidin') {
       document.title = "PiDin | Pitore";
-      metaTag.content = "PiDin é um livro de Dinheiro. Pensado para você ganhar com Empregadorismo, Investimento, Autonomismo ou Empreendedorismo.";
+      metaTag.content = "PiDin é um livro de Dinheiro. Pensado para você ganhar com Empregadorismo e Investimento.";
     } else if (hash === '#/butique/piteni') {
       document.title = "PiTeni | Pitore";
       metaTag.content = "PiTeni é um livro de Entretenimento. Pensado para quem gosta de Escutar, Ler, Assistir ou Jogar.";
