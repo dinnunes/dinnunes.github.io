@@ -46,7 +46,7 @@ export default function App() {
               <Route path="mim" element={<Mim />} />
               <Route path="etica" element={<Etica />} />
               <Route path="marca" element={<Marca />} />
-              <Route path="diario" element={<Diario />} />
+              <Route path="redacao" element={<Redacao />} />
               <Route path="juridico" element={<Juridico />} />
               <Route path="contato" element={<Contato />} />
             </Route>
