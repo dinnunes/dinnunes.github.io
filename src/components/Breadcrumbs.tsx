@@ -11,7 +11,7 @@ export default function Breadcrumbs() {
     mim: 'Mim',
     etica: 'Ética',
     marca: 'Marca',
-    diario: 'Diário',
+    redacao: 'Redação',
     juridico: 'Jurídico',
     contato: 'Contato',
     piteni: 'PiTeni',
