@@ -10,7 +10,7 @@ export default function Redacao() {
   const secoes = [
     {
       titulo: "Artigo",
-      descricao: "Reflexões profundas e ensaios sobre a intersecção entre design, filosofia e o cotidiano pitoresco.",
+      descricao: "Reflexões profundas e ensaios sobre a intersecção entre elemento, filosofia e o cotidiano pitoresco.",
       links: [
         { nome: "LinkedIn", url: "#" },
         { nome: "Threads", url: "#" }
@@ -25,7 +25,7 @@ export default function Redacao() {
     },
     {
       titulo: "Nota",
-      descricao: "Fragmentos visuais, lampejos de inspiração e arquivos estéticos organizados por temas.",
+      descricao: "Fragmentos visuais e lampejos de crítica para você saber o que assistir no cinema ou TV.",
       links: [
         { nome: "Pinterest", url: "#" }
       ]
