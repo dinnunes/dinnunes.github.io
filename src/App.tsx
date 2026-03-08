@@ -13,7 +13,7 @@ import Sobre from './pages/Sobre';
 import Mim from './pages/Sobre/Mim';
 import Etica from './pages/Sobre/Etica';
 import Marca from './pages/Sobre/Marca';
-import Diario from './pages/Sobre/Redacao';
+import Redacao from './pages/Sobre/Redacao';
 import Juridico from './pages/Sobre/Juridico';
 import Contato from './pages/Sobre/Contato';
 import Loja from './pages/Loja';
