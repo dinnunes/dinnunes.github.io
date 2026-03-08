@@ -6,7 +6,7 @@ const links = [
   { id: 'mim', name: 'Mim' },
   { id: 'etica', name: 'Ética' },
   { id: 'marca', name: 'Marca' },
-  { id: 'diario', name: 'Diário' },
+  { id: 'redacao', name: 'Redação' },
   { id: 'juridico', name: 'Jurídico' },
   { id: 'contato', name: 'Contato' },
 ];
