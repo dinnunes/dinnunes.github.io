@@ -28,7 +28,7 @@ export default function Editorial() {
       titulo: "Acústica",
       descricao: "A voz e a frequência da Pitore. Conteúdo em áudio para audição atenta.",
       categorias: [
-        { rotulo: "Áudio", links: [
+        { rotulo: "Fala", links: [
           { nome: "Telegram", url: "#" }
         ]}
       ]
@@ -38,11 +38,11 @@ export default function Editorial() {
       titulo: "Estética",
       descricao: "A curadoria visual e o registro de cenas. Onde a imagem fala pelo silêncio.",
       categorias: [
-        { rotulo: "Imagem", links: [
+        { rotulo: "Nota", links: [
           { nome: "Pinterest", url: "#" }
         ]},
-        { rotulo: "GIF / Vídeo", links: [
-          { nome: "Giphy", url: "#" }
+        { rotulo: "Tomada", links: [
+          { nome: "YouTube", url: "#" }
         ]}
       ]
     }
