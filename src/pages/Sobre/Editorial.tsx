@@ -38,7 +38,7 @@ export default function Editorial() {
       titulo: "Estética",
       descricao: "A curadoria visual e o registro de cenas. Onde a imagem fala pelo silêncio.",
       categorias: [
-        { rotulo: "Nota", links: [
+        { rotulo: "Crítica", links: [
           { nome: "Pinterest", url: "#" }
         ]},
         { rotulo: "Tomada", links: [
