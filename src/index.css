@@ -7,7 +7,8 @@
 }
 
 body {
-  background-color: #000000; /* Fundo externo da borda de 8px */
+  /* AQUI: O fundo branco voltou, criando a borda mágica de 8px! */
+  background-color: #ffffff; 
   color: #ffffff;
   margin: 0;
   padding: 0;
@@ -18,34 +19,44 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 8px;
+  padding: 8px; /* A margem que revela o fundo branco do body */
 }
 
 .app-wrapper {
-  /* Usamos !important para garantir que o Maestro mande no design */
   background-color: var(--pitore-bg) !important;
   font-family: var(--pitore-font) !important;
   color: rgba(255, 255, 255, var(--pitore-text-opacity)) !important;
   
+  border-radius: 0;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
+  overflow: hidden;
   position: relative;
   
-  /* Transições sutis */
-  /* Note: background-color é lenta, font-family é rápida para não parecer erro */
-  transition: background-color 4s cubic-bezier(0.4, 0, 0.2, 1), 
-              color 2s ease-in-out;
+  /* Transição ultra lenta para quando a HORA do dia mudar */
+  transition: background-color 4s ease-in-out;
 }
 
-/* IMPORTANTE: Se as suas páginas tiverem fundo, elas precisam ser transparentes */
-section, main, .page-container {
-  background-color: transparent !important;
+/* =========================================
+   O SEGREDO DO LUXO (Animação de Navegação)
+   ========================================= */
+
+@keyframes luxoFade {
+  from { 
+    opacity: 0; 
+    transform: translateY(4px); /* Sobe de forma quase imperceptível */
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
 }
 
-/* Para a fonte não "pular" de forma seca, 
-   fazemos uma transição de opacidade bem rápida na troca */
-h1, h2, h3, h4, p, a, span {
-  transition: font-family 0.5s ease, opacity 0.5s ease;
+/* Isso força todas as páginas a entrarem suavemente quando você clica no menu */
+.app-wrapper > * {
+  animation: luxoFade 1.2s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+  
+  /* Remove qualquer fundo preso nas páginas para a cor do Maestro aparecer */
+  background-color: transparent !important; 
 }
