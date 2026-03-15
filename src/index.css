@@ -1,19 +1,19 @@
 @import "tailwindcss";
 
-@theme {
-  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+:root {
+  --pitore-bg: #111111;
+  --pitore-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --pitore-text-opacity: 0.9;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #000000; /* Fundo externo da borda de 8px */
   color: #ffffff;
-  font-family: var(--font-sans);
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
 
-/* Global wrapper with 8px margin */
 #root {
   display: flex;
   flex-direction: column;
@@ -22,7 +22,10 @@ body {
 }
 
 .app-wrapper {
-  background-color: #111111;
+  background-color: var(--pitore-bg);
+  font-family: var(--pitore-font);
+  color: rgba(255, 255, 255, var(--pitore-text-opacity));
+  
   border-radius: 0;
   flex-grow: 1;
   display: flex;
@@ -30,4 +33,13 @@ body {
   overflow: hidden;
   position: relative;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05);
+  
+  /* Transição suave para a mudança de atmosfera */
+  transition: background-color 3s ease, font-family 1s ease, color 2s ease;
+}
+
+/* Garante que os textos herdem a fonte dinâmica */
+h1, h2, h3, h4, span, p, a {
+  font-family: var(--pitore-font);
+  transition: font-family 1s ease;
 }
