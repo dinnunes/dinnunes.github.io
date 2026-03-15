@@ -15,11 +15,11 @@ export default function Editorial() {
       descricao: "Onde a ideia toma forma através da escrita. Ensaios profundos e comunicações diretas.",
       categorias: [
         { rotulo: "Artigo", links: [
-          { nome: "LinkedIn", url: "#" },
-          { nome: "Threads", url: "#" }
+          { nome: "LinkedIn", url: "https://www.linkedin.com/in/pitore/" },
+          { nome: "Threads", url: "https://www.threads.com/@vaidadin" }
         ]},
         { rotulo: "Boletim", links: [
-          { nome: "Substack", url: "#" }
+          { nome: "Substack", url: "https://dinnunes.substack.com/" }
         ]}
       ]
     },
@@ -29,7 +29,7 @@ export default function Editorial() {
       descricao: "A voz e a frequência da Pitore. Conteúdo em áudio para audição atenta.",
       categorias: [
         { rotulo: "Fala", links: [
-          { nome: "Telegram", url: "#" }
+          { nome: "Telegram", url: "https://t.me/+K72-LcNG-D43ZDgx" }
         ]}
       ]
     },
@@ -39,10 +39,10 @@ export default function Editorial() {
       descricao: "A curadoria visual e o registro de cenas. Onde a imagem fala pelo silêncio.",
       categorias: [
         { rotulo: "Crítica", links: [
-          { nome: "Pinterest", url: "#" }
+          { nome: "Pinterest", url: "https://br.pinterest.com/mvsnunes/entretenimento/cr%C3%ADtica/" }
         ]},
         { rotulo: "Tomada", links: [
-          { nome: "YouTube", url: "#" }
+          { nome: "YouTube", url: "https://www.youtube.com/@pitoredin/videos" }
         ]}
       ]
     }
