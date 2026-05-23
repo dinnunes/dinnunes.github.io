@@ -48,7 +48,7 @@ export default function FAQ() {
       pergunta: "Gostei da ideia.",
       resposta: (
         <>
-          Que bom que você gostou! Se tiver outra dúvida, envia no meu <a href="https://ig.me/m/vaidadin" target="_blank" rel="noopener noreferrer" className="underline decoration-white/30 hover:decoration-white transition-colors">direct</a>.
+          Que bom que você gostou! Se tiver outra dúvida, envia no meu <a href="https://ig.me/m/noitepi" target="_blank" rel="noopener noreferrer" className="underline decoration-white/30 hover:decoration-white transition-colors">direct</a>.
         </>
       ),
       respostaTextoParaSEO: "Que bom que você gostou! Se tiver outra dúvida, envia no meu direct."
