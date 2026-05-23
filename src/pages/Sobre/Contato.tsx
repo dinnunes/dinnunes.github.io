@@ -12,7 +12,7 @@ export default function Contato() {
       </div>
       <div className="mt-8">
         <p className="text-white/40 text-sm uppercase tracking-widest mb-2">Instagram</p>
-        <a href="https://ig.me/m/vaidadin" className="text-xl font-light hover:text-white/70 transition-colors">@vaidadin</a>
+        <a href="https://ig.me/m/noitepi" className="text-xl font-light hover:text-white/70 transition-colors">@noitepi</a>
       </div>
     </PageTemplate>
   );
