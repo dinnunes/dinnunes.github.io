@@ -9,7 +9,7 @@ export default function PiMor() {
         name="PiMor"
         image="/pimor.jpg"
         description="A maioria das pessoas toca apenas a pele. Poucas têm a chave para tocar a alma. PiMor." 
-        price="R$ 98" 
+        price="R$ 200" 
         link="https://pay.kiwify.com.br/yfcSxNI" 
       />
       <div className="pb-20">
