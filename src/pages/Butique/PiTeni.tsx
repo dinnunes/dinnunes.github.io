@@ -9,7 +9,7 @@ export default function PiTeni() {
         name="PiTeni"
         image="/piteni.jpg"
         description="A maioria usa o entretenimento para fugir da realidade. O PiTeni é para quem quer expandi-la." 
-        price="R$ 88" 
+        price="R$ 94" 
         link="https://pay.kiwify.com.br/LPKOeCU" 
       />
       
