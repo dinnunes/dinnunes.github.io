@@ -19,7 +19,6 @@ export default function Editorial() {
         ]},
         { rotulo: "Artigo", links: [
           { nome: "LinkedIn", url: "https://www.linkedin.com/in/pitore/" },
-          { nome: "Threads", url: "https://www.threads.com/@vaidadin" }
         ]}
       ]
     },
