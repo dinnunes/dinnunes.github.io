@@ -3,12 +3,12 @@ import { motion } from 'motion/react';
 import { useEffect } from 'react';
 
 const products = [
-  { id: 'piteni', name: 'PiTeni', desc: 'Entretenimento, por gentileza.', image: '/piteni.jpg' },
-  { id: 'pidin', name: 'PiDin', desc: 'Dinheirooooo…', image: '/pidin.jpg' },
   { id: 'pisau', name: 'PiSau', desc: 'A saúde, do vermelho para o azul.', image: '/pisau.jpg' },
   { id: 'pisofia', name: 'PiSofia', desc: 'Qual é a sua filosofia?', image: '/pisofia.jpg' },
-  { id: 'pilin', name: 'PiLin', desc: 'There is not just one language.', image: '/pilin.jpg' },
+  { id: 'pidin', name: 'PiDin', desc: 'Dinheirooooo…', image: '/pidin.jpg' },
+  { id: 'piteni', name: 'PiTeni', desc: 'Entretenimento, por gentileza.', image: '/piteni.jpg' },
   { id: 'pistilo', name: 'Pistilo', desc: 'Indo com estilo.', image: '/pistilo.jpg' },
+  { id: 'pilin', name: 'PiLin', desc: 'There is not just one language.', image: '/pilin.jpg' },
   { id: 'pimor', name: 'PiMor', desc: 'Ah, o amor!', image: '/pimor.jpg' },
 ];
 
