@@ -45,7 +45,8 @@ export default function Butique() {
               to={`/butique/${product.id}`}
               className="group block"
             >
-              <div className="aspect-[4/5] bg-white/5 mb-8 flex items-center justify-center overflow-hidden relative border border-white/5">
+              {/* Ajustado aqui: Proporção exata da sua imagem */}
+              <div className="aspect-[783/1250] bg-white/5 mb-8 flex items-center justify-center overflow-hidden relative border border-white/5">
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10" />
                 {product.image ? (
                   <img 
