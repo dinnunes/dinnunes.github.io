@@ -43,6 +43,9 @@ export default function Editorial() {
         { rotulo: "Expressão", links: [
           { nome: "Giphy", url: "https://giphy.com/channel/dinspi" }
         ]},
+        { rotulo: "...", links: [
+          { nome: "...", url: "https://t.me/+HUQbG24DNZg5YzQx" }
+        ]},
         { rotulo: "Tomada", links: [
           { nome: "YouTube", url: "https://www.youtube.com/@pitoredin/videos" }
         ]}
