@@ -33,7 +33,7 @@ const categorias = [
     cor: '#FF7218',
     itens: [
       { nome: 'NordVPN', desc: 'Escolher usar uma VPN para ter mais privacidade é uma filosofia. Te apresento a NordVPN.', link: 'https://nordvpn.com/pt-br/' },
-      { nome: 'Kindle', desc: 'Os livros ficaram mais baratos e acessíveis com o Kindle Unlimited. Muitas jornadas começam apenas com um livro.', link: 'https://amzn.to/3PMYXTw' },
+      { nome: 'Kindle', desc: 'Os livros ficaram mais baratos e acessíveis com o Kindle Unlimited. Muitas jornadas começam apenas com um livro.', link: 'https://link.amazon/A04baOg5b' },
       { nome: 'Mercado Livre', desc: 'Temos aqui um ótimo lugar para fazer compras digitais. No Mercado Livre também encontramos livros!', link: 'https://dub.sh/piml' },
     ]
   },
