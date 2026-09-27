@@ -37,8 +37,8 @@ export default function Editorial() {
       titulo: "Estética",
       descricao: "A curadoria visual e o registro de cenas. Onde a imagem fala pelo silêncio.",
       categorias: [
-        { rotulo: "Crítica", links: [
-          { nome: "Pinterest", url: "https://br.pinterest.com/mvsnunes/entretenimento/cr%C3%ADtica/" }
+        { rotulo: "Extração", links: [
+          { nome: "Pinterest", url: "https://br.pinterest.com/mvsnunes" }
         ]},
         { rotulo: "Expressão", links: [
           { nome: "Giphy", url: "https://giphy.com/channel/dinspi" }
