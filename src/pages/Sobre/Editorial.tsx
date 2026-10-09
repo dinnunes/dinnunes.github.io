@@ -12,7 +12,7 @@ export default function Editorial() {
     {
       id: "redacao",
       titulo: "Redação",
-      descricao: "Onde a ideia toma forma através da escrita. Ensaios profundos e comunicações diretas.",
+      descricao: "Onde a mini-história toma forma através da escrita. Ensaios mais longos e comunicações diretas.",
       categorias: [
         { rotulo: "Boletim", links: [
           { nome: "Substack", url: "https://dinnunes.substack.com/" }
@@ -22,7 +22,7 @@ export default function Editorial() {
     {
       id: "acustica",
       titulo: "Acústica",
-      descricao: "A voz e a frequência da Pitore. Conteúdo em áudio para audição atenta.",
+      descricao: "O som ambiente é a frequência da Pitore. Conteúdo em áudio pra audição atenta.",
       categorias: [
         { rotulo: "Fala", links: [
           { nome: "Telegram", url: "https://t.me/+K72-LcNG-D43ZDgx" }
@@ -32,7 +32,7 @@ export default function Editorial() {
     {
       id: "estetica",
       titulo: "Estética",
-      descricao: "A curadoria visual e o registro de cenas. Onde a imagem fala pelo silêncio.",
+      descricao: "As colagens e a curadoria visual. Onde a pintura é interativa.",
       categorias: [
         { rotulo: "Extração", links: [
           { nome: "Pinterest", url: "https://br.pinterest.com/mvsnunes" }
