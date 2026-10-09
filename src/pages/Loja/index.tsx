@@ -17,7 +17,7 @@ const categorias = [
     cor: '#18FF19',
     itens: [
       { nome: 'FNO', desc: 'Uma época muito boa para ter negócios. Com o FNO você pode aprender a ganhar dinheiro online.', link: 'https://hotm.io/fnn' },
-      { nome: 'Inter', desc: 'No Inter, eu e você ganhamos pontos Loop se você abrir uma conta com esse meu código de indicação: 332E1384', link: 'https://inter.co' },
+      { nome: 'Inter', desc: 'No Inter, eu e você ganhamos pontos Loop se você abrir uma conta com esse meu código de indicação: Q8171T0B', link: 'https://inter.co' },
     ]
   },
   {
